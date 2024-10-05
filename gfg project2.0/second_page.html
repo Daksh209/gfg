@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>WALKOVER</title>
+  <link rel="stylesheet" href="Css_page.css">
+  <link rel="icon" href="logo.jpg" type="image/jpg">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      background-color: #f0f8ff;
+    }
+
+    /* Set a fixed height for the text area */
+    #yourElementId {
+      font-size: 20px;
+      margin: 30px;
+      min-height: 150px;
+      /* Set enough height to prevent shifting */
+      white-space: pre-wrap;
+    }
+
+    #imageContainerId {
+      display: flex;
+      justify-content: center;
+      margin-top: 30px;
+    }
+
+    #imageContainerId img {
+      margin: 10px;
+      width: 200px;
+      height: auto;
+    }
+  </style>
+
+</head>
+
+<body>
+  <div class="container">
+    <h1>Not your Best Day? </h1>
+    <!-- Where the typed text will appear -->
+    <div id="yourElementId"></div>
+
+    <!-- Images container -->
+    <div id="imageContainerId">
+      <img src="image1.jpg" alt="Image 1">
+      <img src="image2.jpg" alt="Image 2">
+      <img src="image3.jpg" alt="Image 3">
+    </div>
+
+    <script src="Javascript_page.js">
+    </script>
+  </div>
+</body>
+
+</html>
